@@ -3,13 +3,13 @@
 	url = https://github.com/RMASBench/jmaxsum.git
 [submodule "BinaryMaxSum"]
 	path = BinaryMaxSum
-	url = https://github.com/RMASBench/BinaryMaxSum.git
+	url = https://github.com/BinMSWithCoordinationVariables/BinaryMaxSum.git
 [submodule "roborescue"]
 	path = roborescue
 	url = https://github.com/RMASBench/roborescue.git
 [submodule "RSLB2"]
 	path = RSLB2
-	url = https://github.com/RMASBench/RSLB2.git
+	url = https://github.com/BinMSWithCoordinationVariables/RSLB2.git
 [submodule "BlockadeLoader"]
 	path = BlockadeLoader
 	url = https://github.com/RMASBench/BlockadeLoader.git
