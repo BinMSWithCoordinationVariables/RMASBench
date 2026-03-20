@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<scenario:scenario xmlns:scenario="urn:roborescue:map:scenario">
+  <!-- The fire station (do *not* remove this) -->
+  <scenario:firestation scenario:location="64173"/>
+
+  <!-- The initial fires -->
+  <scenario:fire scenario:location="35014"/>
+  <scenario:fire scenario:location="39441"/>
+  <scenario:fire scenario:location="19644"/>
+  
+  
+  <!-- The fire brigades -->
+  <scenario:firebrigade scenario:location="26829"/>
+  <scenario:firebrigade scenario:location="12847"/>
+  <scenario:firebrigade scenario:location="3374"/>
+  <scenario:firebrigade scenario:location="14224"/>
+  <scenario:firebrigade scenario:location="16852"/>
+  <scenario:firebrigade scenario:location="30670"/>
+  <scenario:firebrigade scenario:location="10849"/>
+  <scenario:firebrigade scenario:location="5559"/>
+  <scenario:firebrigade scenario:location="26632"/>
+  <scenario:firebrigade scenario:location="48147"/>
+  <scenario:firebrigade scenario:location="11452"/>
+  <scenario:firebrigade scenario:location="62761"/>
+  <scenario:firebrigade scenario:location="56649"/>
+  <scenario:firebrigade scenario:location="5271"/>
+  <scenario:firebrigade scenario:location="6704"/>
+  <scenario:firebrigade scenario:location="5800"/>
+  <scenario:firebrigade scenario:location="15601"/>
+  <scenario:firebrigade scenario:location="39876"/>
+  <scenario:firebrigade scenario:location="16519"/>
+  <scenario:firebrigade scenario:location="12919"/>
+  <scenario:firebrigade scenario:location="4436"/>
+  
+  <!-- The police forces -->
+  <scenario:policeforce scenario:location="7366"/>
+  <scenario:policeforce scenario:location="16159"/>
+  <scenario:policeforce scenario:location="35223"/>
+  <scenario:policeforce scenario:location="3766"/>
+  <scenario:policeforce scenario:location="17491"/>
+  <scenario:policeforce scenario:location="17878"/>
+  <scenario:policeforce scenario:location="29874"/>
+  <scenario:policeforce scenario:location="5007"/>
+  <scenario:policeforce scenario:location="34435"/>
+  <scenario:policeforce scenario:location="37038"/>
+  
+  <!-- The blockades -->
+  <scenario:blockade scenario:location="40765" cost="10" />
+  <scenario:blockade scenario:location="7447" cost="10" />
+  <scenario:blockade scenario:location="36769" cost="10" />
+  <scenario:blockade scenario:location="11767" cost="10" />
+  <scenario:blockade scenario:location="15556" cost="10" />
+  <scenario:blockade scenario:location="4701" cost="10" />
+  <scenario:blockade scenario:location="10417" cost="10" />
+  <scenario:blockade scenario:location="6017" cost="10" />
+  <scenario:blockade scenario:location="33843" cost="10" />
+  <scenario:blockade scenario:location="1483" cost="10" />
+  <scenario:blockade scenario:location="1224" cost="10" />
+  <scenario:blockade scenario:location="2808" cost="10" />
+  <scenario:blockade scenario:location="42463" cost="10" />
+  <scenario:blockade scenario:location="10894" cost="10" />
+  <scenario:blockade scenario:location="5582" cost="10" />
+  <scenario:blockade scenario:location="6324" cost="10" />
+  <scenario:blockade scenario:location="60550" cost="10" />
+  <scenario:blockade scenario:location="11236" cost="10" />
+  <scenario:blockade scenario:location="7289" cost="10" />
+  <scenario:blockade scenario:location="51996" cost="10" />
+  <scenario:blockade scenario:location="11983" cost="10" />
+  <scenario:blockade scenario:location="39097" cost="10" />
+  <scenario:blockade scenario:location="54534" cost="10" />
+  <scenario:blockade scenario:location="386" cost="10" />
+  <scenario:blockade scenario:location="13342" cost="10" />
+  <scenario:blockade scenario:location="9895" cost="10" />
+  <scenario:blockade scenario:location="63411" cost="10" />
+  <scenario:blockade scenario:location="1758" cost="10" />
+  <scenario:blockade scenario:location="63008" cost="10" />
+  <scenario:blockade scenario:location="33209" cost="10" />
+  <scenario:blockade scenario:location="10867" cost="10" />
+  <scenario:blockade scenario:location="15547" cost="10" />
+  <scenario:blockade scenario:location="31847" cost="10" />
+  <scenario:blockade scenario:location="63200" cost="10" />
+  <scenario:blockade scenario:location="39139" cost="10" />
+  <scenario:blockade scenario:location="51118" cost="10" />
+  <scenario:blockade scenario:location="37386" cost="10" />
+  <scenario:blockade scenario:location="1147" cost="10" />
+  <scenario:blockade scenario:location="3632" cost="10" />
+  <scenario:blockade scenario:location="8356" cost="10" />
+  <scenario:blockade scenario:location="7933" cost="10" />
+  <scenario:blockade scenario:location="15484" cost="10" />
+  <scenario:blockade scenario:location="10615" cost="10" />
+  <scenario:blockade scenario:location="6106" cost="10" />
+  <scenario:blockade scenario:location="53267" cost="10" />
+  <scenario:blockade scenario:location="54377" cost="10" />
+  <scenario:blockade scenario:location="5957" cost="10" />
+  <scenario:blockade scenario:location="4753" cost="10" />
+  <scenario:blockade scenario:location="7429" cost="10" />
+  <scenario:blockade scenario:location="57531" cost="10" />
+  <scenario:blockade scenario:location="30554" cost="10" />
+  <scenario:blockade scenario:location="8806" cost="10" />
+  <scenario:blockade scenario:location="49449" cost="10" />
+  <scenario:blockade scenario:location="38801" cost="10" />
+  <scenario:blockade scenario:location="12775" cost="10" />
+  <scenario:blockade scenario:location="16879" cost="10" />
+  <scenario:blockade scenario:location="12055" cost="10" />
+  <scenario:blockade scenario:location="5432" cost="10" />
+  <scenario:blockade scenario:location="62893" cost="10" />
+  <scenario:blockade scenario:location="2387" cost="10" />
+  <scenario:blockade scenario:location="11668" cost="10" />
+  <scenario:blockade scenario:location="3522" cost="10" />
+  <scenario:blockade scenario:location="2763" cost="10" />
+  <scenario:blockade scenario:location="56329" cost="10" />
+  <scenario:blockade scenario:location="61742" cost="10" />
+  <scenario:blockade scenario:location="3264" cost="10" />
+  <scenario:blockade scenario:location="51886" cost="10" />
+  <scenario:blockade scenario:location="50533" cost="10" />
+  <scenario:blockade scenario:location="22331" cost="10" />
+  <scenario:blockade scenario:location="9265" cost="10" />
+  <scenario:blockade scenario:location="6727" cost="10" />
+  <scenario:blockade scenario:location="18238" cost="10" />
+  <scenario:blockade scenario:location="28583" cost="10" />
+  <scenario:blockade scenario:location="5355" cost="10" />
+  <scenario:blockade scenario:location="40540" cost="10" />
+  <scenario:blockade scenario:location="62412" cost="10" />
+  <scenario:blockade scenario:location="16555" cost="10" />
+  <scenario:blockade scenario:location="10570" cost="10" />
+  <scenario:blockade scenario:location="6504" cost="10" />
+  <scenario:blockade scenario:location="1199" cost="10" />
+  <scenario:blockade scenario:location="4139" cost="10" />
+  <scenario:blockade scenario:location="4871" cost="10" />
+  <scenario:blockade scenario:location="955" cost="10" />
+  <scenario:blockade scenario:location="5697" cost="10" />
+  <scenario:blockade scenario:location="15637" cost="10" />
+  <scenario:blockade scenario:location="17635" cost="10" />
+  <scenario:blockade scenario:location="40986" cost="10" />
+  <scenario:blockade scenario:location="916" cost="10" />
+  <scenario:blockade scenario:location="14935" cost="10" />
+  <scenario:blockade scenario:location="1028" cost="10" />
+  <scenario:blockade scenario:location="16258" cost="10" />
+  <scenario:blockade scenario:location="31288" cost="10" />
+  <scenario:blockade scenario:location="14773" cost="10" />
+  <scenario:blockade scenario:location="38170" cost="10" />
+  <scenario:blockade scenario:location="15214" cost="10" />
+  <scenario:blockade scenario:location="32668" cost="10" />
+  <scenario:blockade scenario:location="19656" cost="10" />
+  <scenario:blockade scenario:location="16789" cost="10" />
+  <scenario:blockade scenario:location="12163" cost="10" />
+  <scenario:blockade scenario:location="39804" cost="10" />
+  <scenario:blockade scenario:location="9751" cost="10" />
+  <scenario:blockade scenario:location="50424" cost="10" />
+  <scenario:blockade scenario:location="15475" cost="10" />
+  <scenario:blockade scenario:location="6889" cost="10" />
+  <scenario:blockade scenario:location="4102" cost="10" />
+  <scenario:blockade scenario:location="32187" cost="10" />
+  <scenario:blockade scenario:location="50211" cost="10" />
+  <scenario:blockade scenario:location="13990" cost="10" />
+  <scenario:blockade scenario:location="7735" cost="10" />
+  <scenario:blockade scenario:location="3974" cost="10" />
+  <scenario:blockade scenario:location="186" cost="10" />
+  <scenario:blockade scenario:location="7744" cost="10" />
+  <scenario:blockade scenario:location="16276" cost="10" />
+  <scenario:blockade scenario:location="46057" cost="10" />
+  <scenario:blockade scenario:location="16627" cost="10" />
+  <scenario:blockade scenario:location="156" cost="10" />
+  <scenario:blockade scenario:location="6697" cost="10" />
+  <scenario:blockade scenario:location="37648" cost="10" />
+  <scenario:blockade scenario:location="129" cost="10" />
+  <scenario:blockade scenario:location="27721" cost="10" />
+  <scenario:blockade scenario:location="11461" cost="10" />
+  <scenario:blockade scenario:location="15151" cost="10" />
+  <scenario:blockade scenario:location="51306" cost="10" />
+  <scenario:blockade scenario:location="9616" cost="10" />
+  <scenario:blockade scenario:location="13621" cost="10" />
+  <scenario:blockade scenario:location="37611" cost="10" />
+  <scenario:blockade scenario:location="17266" cost="10" />
+  <scenario:blockade scenario:location="8212" cost="10" />
+  <scenario:blockade scenario:location="5330" cost="10" />
+  <scenario:blockade scenario:location="12901" cost="10" />
+  <scenario:blockade scenario:location="607" cost="10" />
+  <scenario:blockade scenario:location="61258" cost="10" />
+  <scenario:blockade scenario:location="15601" cost="10" />
+  <scenario:blockade scenario:location="28610" cost="10" />
+  <scenario:blockade scenario:location="12073" cost="10" />
+  <scenario:blockade scenario:location="6734" cost="10" />
+  <scenario:blockade scenario:location="55623" cost="10" />
+  <scenario:blockade scenario:location="13036" cost="10" />
+  <scenario:blockade scenario:location="1504" cost="10" />
+  <scenario:blockade scenario:location="62828" cost="10" />
+  <scenario:blockade scenario:location="939" cost="10" />
+  <scenario:blockade scenario:location="11380" cost="10" />
+  <scenario:blockade scenario:location="6159" cost="10" />
+  <scenario:blockade scenario:location="15646" cost="10" />
+  <scenario:blockade scenario:location="10408" cost="10" />
+  <scenario:blockade scenario:location="16546" cost="10" />
+  <scenario:blockade scenario:location="5939" cost="10" />
+  <scenario:blockade scenario:location="8761" cost="10" />
+  <scenario:blockade scenario:location="3684" cost="10" />
+  <scenario:blockade scenario:location="5598" cost="10" />
+  <scenario:blockade scenario:location="779" cost="10" />
+  <scenario:blockade scenario:location="27285" cost="10" />
+  <scenario:blockade scenario:location="15799" cost="10" />
+  <scenario:blockade scenario:location="43167" cost="10" />
+  <scenario:blockade scenario:location="12541" cost="10" />
+  <scenario:blockade scenario:location="3440" cost="10" />
+  <scenario:blockade scenario:location="56025" cost="10" />
+  <scenario:blockade scenario:location="36254" cost="10" />
+  <scenario:blockade scenario:location="3852" cost="10" />
+  <scenario:blockade scenario:location="44669" cost="10" />
+  <scenario:blockade scenario:location="62784" cost="10" />
+  <scenario:blockade scenario:location="14377" cost="10" />
+  <scenario:blockade scenario:location="526" cost="10" />
+  <scenario:blockade scenario:location="28146" cost="10" />
+  <scenario:blockade scenario:location="4260" cost="10" />
+  <scenario:blockade scenario:location="3666" cost="10" />
+  <scenario:blockade scenario:location="43508" cost="10" />
+  <scenario:blockade scenario:location="36052" cost="10" />
+  <scenario:blockade scenario:location="1518" cost="10" />
+  <scenario:blockade scenario:location="3490" cost="10" />
+  <scenario:blockade scenario:location="2235" cost="10" />
+  <scenario:blockade scenario:location="5473" cost="10" />
+  <scenario:blockade scenario:location="6743" cost="10" />
+  <scenario:blockade scenario:location="47580" cost="10" />
+  <scenario:blockade scenario:location="16447" cost="10" />
+  <scenario:blockade scenario:location="13999" cost="10" />
+  <scenario:blockade scenario:location="42118" cost="10" />
+  <scenario:blockade scenario:location="50467" cost="10" />
+  <scenario:blockade scenario:location="39876" cost="10" />
+  <scenario:blockade scenario:location="45255" cost="10" />
+  <scenario:blockade scenario:location="30416" cost="10" />
+  <scenario:blockade scenario:location="28960" cost="10" />
+  <scenario:blockade scenario:location="45211" cost="10" />
+  <scenario:blockade scenario:location="47543" cost="10" />
+  <scenario:blockade scenario:location="2742" cost="10" />
+  <scenario:blockade scenario:location="4436" cost="10" />
+  <scenario:blockade scenario:location="3863" cost="10" />
+  <scenario:blockade scenario:location="13081" cost="10" />
+  <scenario:blockade scenario:location="12811" cost="10" />
+  <scenario:blockade scenario:location="2521" cost="10" />
+  <scenario:blockade scenario:location="5178" cost="10" />
+  <scenario:blockade scenario:location="54567" cost="10" />
+  <scenario:blockade scenario:location="16870" cost="10" />
+  <scenario:blockade scenario:location="36856" cost="10" />
+  <scenario:blockade scenario:location="58748" cost="10" />
+  <scenario:blockade scenario:location="7501" cost="10" />
+  <scenario:blockade scenario:location="7906" cost="10" />
+  <scenario:blockade scenario:location="2333" cost="10" />
+  <scenario:blockade scenario:location="25235" cost="10" />
+  <scenario:blockade scenario:location="44978" cost="10" />
+  <scenario:blockade scenario:location="15502" cost="10" />
+  <scenario:blockade scenario:location="56228" cost="10" />
+  <scenario:blockade scenario:location="62759" cost="10" />
+  <scenario:blockade scenario:location="3845" cost="10" />
+  <scenario:blockade scenario:location="16762" cost="10" />
+  <scenario:blockade scenario:location="61076" cost="10" />
+  <scenario:blockade scenario:location="3059" cost="10" />
+  <scenario:blockade scenario:location="4004" cost="10" />
+  <scenario:blockade scenario:location="61215" cost="10" />
+  <scenario:blockade scenario:location="15340" cost="10" />
+  <scenario:blockade scenario:location="2551" cost="10" />
+  <scenario:blockade scenario:location="28714" cost="10" />
+  <scenario:blockade scenario:location="6463" cost="10" />
+  <scenario:blockade scenario:location="3538" cost="10" />
+  <scenario:blockade scenario:location="6435" cost="10" />
+  <scenario:blockade scenario:location="15232" cost="10" />
+  <scenario:blockade scenario:location="33542" cost="10" />
+  <scenario:blockade scenario:location="13729" cost="10" />
+  <scenario:blockade scenario:location="36192" cost="10" />
+  <scenario:blockade scenario:location="667" cost="10" />
+  <scenario:blockade scenario:location="19504" cost="10" />
+  <scenario:blockade scenario:location="36885" cost="10" />
+  <scenario:blockade scenario:location="17905" cost="10" />
+  <scenario:blockade scenario:location="62919" cost="10" />
+  <scenario:blockade scenario:location="8941" cost="10" />
+  <scenario:blockade scenario:location="7298" cost="10" />
+  <scenario:blockade scenario:location="5291" cost="10" />
+  <scenario:blockade scenario:location="1836" cost="10" />
+  <scenario:blockade scenario:location="59061" cost="10" />
+  <scenario:blockade scenario:location="31791" cost="10" />
+  <scenario:blockade scenario:location="6301" cost="10" />
+  <scenario:blockade scenario:location="10300" cost="10" />
+  <scenario:blockade scenario:location="14575" cost="10" />
+  <scenario:blockade scenario:location="6317" cost="10" />
+  <scenario:blockade scenario:location="47878" cost="10" />
+  <scenario:blockade scenario:location="14953" cost="10" />
+  <scenario:blockade scenario:location="5525" cost="10" />
+  <scenario:blockade scenario:location="8500" cost="10" />
+  <scenario:blockade scenario:location="30860" cost="10" />
+  <scenario:blockade scenario:location="1056" cost="10" />
+  <scenario:blockade scenario:location="10318" cost="10" />
+  <scenario:blockade scenario:location="2567" cost="10" />
+  <scenario:blockade scenario:location="1334" cost="10" />
+  <scenario:blockade scenario:location="4972" cost="10" />
+  <scenario:blockade scenario:location="1259" cost="10" />
+  <scenario:blockade scenario:location="7897" cost="10" />
+  <scenario:blockade scenario:location="35673" cost="10" />
+  <scenario:blockade scenario:location="26060" cost="10" />
+  <scenario:blockade scenario:location="1419" cost="10" />
+  <scenario:blockade scenario:location="41157" cost="10" />
+  <scenario:blockade scenario:location="1852" cost="10" />
+  <scenario:blockade scenario:location="19629" cost="10" />
+  <scenario:blockade scenario:location="2023" cost="10" />
+  <scenario:blockade scenario:location="62857" cost="10" />
+  <scenario:blockade scenario:location="16600" cost="10" />
+  <scenario:blockade scenario:location="45729" cost="10" />
+  <scenario:blockade scenario:location="13702" cost="10" />
+  <scenario:blockade scenario:location="6857" cost="10" />
+  <scenario:blockade scenario:location="16069" cost="10" />
+  <scenario:blockade scenario:location="35190" cost="10" />
+  <scenario:blockade scenario:location="12172" cost="10" />
+  <scenario:blockade scenario:location="7528" cost="10" />
+  <scenario:blockade scenario:location="25268" cost="10" />
+  <scenario:blockade scenario:location="16924" cost="10" />
+  <scenario:blockade scenario:location="12838" cost="10" />
+  <scenario:blockade scenario:location="48186" cost="10" />
+  <scenario:blockade scenario:location="10516" cost="10" />
+  <scenario:blockade scenario:location="16285" cost="10" />
+  <scenario:blockade scenario:location="16951" cost="10" />
+  <scenario:blockade scenario:location="1231" cost="10" />
+  <scenario:blockade scenario:location="56444" cost="10" />
+  <scenario:blockade scenario:location="13603" cost="10" />
+  <scenario:blockade scenario:location="14629" cost="10" />
+  <scenario:blockade scenario:location="23241" cost="10" />
+  <scenario:blockade scenario:location="425" cost="10" />
+  <scenario:blockade scenario:location="8635" cost="10" />
+  <scenario:blockade scenario:location="5408" cost="10" />
+  <scenario:blockade scenario:location="16645" cost="10" />
+  <scenario:blockade scenario:location="16753" cost="10" />
+  <scenario:blockade scenario:location="62660" cost="10" />
+  <scenario:blockade scenario:location="6294" cost="10" />
+  <scenario:blockade scenario:location="14818" cost="10" />
+  <scenario:blockade scenario:location="19790" cost="10" />
+  <scenario:blockade scenario:location="5314" cost="10" />
+  <scenario:blockade scenario:location="44103" cost="10" />
+  <scenario:blockade scenario:location="4249" cost="10" />
+  <scenario:blockade scenario:location="14854" cost="10" />
+  <scenario:blockade scenario:location="9184" cost="10" />
+  <scenario:blockade scenario:location="63227" cost="10" />
+  <scenario:blockade scenario:location="14026" cost="10" />
+  <scenario:blockade scenario:location="46964" cost="10" />
+  <scenario:blockade scenario:location="11938" cost="10" />
+  <scenario:blockade scenario:location="12343" cost="10" />
+  <scenario:blockade scenario:location="3073" cost="10" />
+  <scenario:blockade scenario:location="6642" cost="10" />
+  <scenario:blockade scenario:location="4824" cost="10" />
+  <scenario:blockade scenario:location="14017" cost="10" />
+  <scenario:blockade scenario:location="14116" cost="10" />
+  <scenario:blockade scenario:location="7474" cost="10" />
+  <scenario:blockade scenario:location="328" cost="10" />
+  <scenario:blockade scenario:location="5066" cost="10" />
+  <scenario:blockade scenario:location="8410" cost="10" />
+  <scenario:blockade scenario:location="16573" cost="10" />
+  <scenario:blockade scenario:location="1083" cost="10" />
+  <scenario:blockade scenario:location="14737" cost="10" />
+  <scenario:blockade scenario:location="21137" cost="10" />
+  <scenario:blockade scenario:location="54881" cost="10" />
+  <scenario:blockade scenario:location="18328" cost="10" />
+  <scenario:blockade scenario:location="62710" cost="10" />
+  <scenario:blockade scenario:location="5271" cost="10" />
+  <scenario:blockade scenario:location="23917" cost="10" />
+  <scenario:blockade scenario:location="11677" cost="10" />
+  <scenario:blockade scenario:location="12397" cost="10" />
+  <scenario:blockade scenario:location="60381" cost="10" />
+  <scenario:blockade scenario:location="47605" cost="10" />
+  <scenario:blockade scenario:location="16375" cost="10" />
+  <scenario:blockade scenario:location="7753" cost="10" />
+  <scenario:blockade scenario:location="11812" cost="10" />
+  <scenario:blockade scenario:location="29342" cost="10" />
+  <scenario:blockade scenario:location="55745" cost="10" />
+  <scenario:blockade scenario:location="8122" cost="10" />
+  <scenario:blockade scenario:location="9274" cost="10" />
+  <scenario:blockade scenario:location="6513" cost="10" />
+  <scenario:blockade scenario:location="48570" cost="10" />
+  <scenario:blockade scenario:location="342" cost="10" />
+  <scenario:blockade scenario:location="41711" cost="10" />
+  <scenario:blockade scenario:location="2655" cost="10" />
+  <scenario:blockade scenario:location="15322" cost="10" />
+  <scenario:blockade scenario:location="697" cost="10" />
+  <scenario:blockade scenario:location="393" cost="10" />
+  <scenario:blockade scenario:location="5568" cost="10" />
+  <scenario:blockade scenario:location="62693" cost="10" />
+  <scenario:blockade scenario:location="13252" cost="10" />
+  <scenario:blockade scenario:location="19572" cost="10" />
+  <scenario:blockade scenario:location="41769" cost="10" />
+  <scenario:blockade scenario:location="25995" cost="10" />
+  <scenario:blockade scenario:location="8662" cost="10" />
+  <scenario:blockade scenario:location="13162" cost="10" />
+  <scenario:blockade scenario:location="53321" cost="10" />
+  <scenario:blockade scenario:location="62713" cost="10" />
+  <scenario:blockade scenario:location="7492" cost="10" />
+  <scenario:blockade scenario:location="24185" cost="10" />
+  <scenario:blockade scenario:location="50974" cost="10" />
+  <scenario:blockade scenario:location="19436" cost="10" />
+  <scenario:blockade scenario:location="7519" cost="10" />
+  <scenario:blockade scenario:location="15970" cost="10" />
+  <scenario:blockade scenario:location="43658" cost="10" />
+  <scenario:blockade scenario:location="56959" cost="10" />
+  <scenario:blockade scenario:location="17140" cost="10" />
+  <scenario:blockade scenario:location="16636" cost="10" />
+  <scenario:blockade scenario:location="14188" cost="10" />
+  <scenario:blockade scenario:location="11839" cost="10" />
+  <scenario:blockade scenario:location="62902" cost="10" />
+  <scenario:blockade scenario:location="2062" cost="10" />
+  <scenario:blockade scenario:location="13585" cost="10" />
+  <scenario:blockade scenario:location="48687" cost="10" />
+  <scenario:blockade scenario:location="13756" cost="10" />
+  <scenario:blockade scenario:location="3616" cost="10" />
+  <scenario:blockade scenario:location="3431" cost="10" />
+  <scenario:blockade scenario:location="22292" cost="10" />
+  <scenario:blockade scenario:location="27064" cost="10" />
+  <scenario:blockade scenario:location="16798" cost="10" />
+  <scenario:blockade scenario:location="13720" cost="10" />
+  <scenario:blockade scenario:location="29736" cost="10" />
+  <scenario:blockade scenario:location="15034" cost="10" />
+  <scenario:blockade scenario:location="62771" cost="10" />
+  <scenario:blockade scenario:location="2628" cost="10" />
+  <scenario:blockade scenario:location="47925" cost="10" />
+  <scenario:blockade scenario:location="39835" cost="10" />
+  <scenario:blockade scenario:location="3995" cost="10" />
+  <scenario:blockade scenario:location="1012" cost="10" />
+  <scenario:blockade scenario:location="5280" cost="10" />
+  <scenario:blockade scenario:location="9013" cost="10" />
+  <scenario:blockade scenario:location="51772" cost="10" />
+  <scenario:blockade scenario:location="62980" cost="10" />
+  <scenario:blockade scenario:location="34531" cost="10" />
+  <scenario:blockade scenario:location="13180" cost="10" />
+  <scenario:blockade scenario:location="17734" cost="10" />
+  <scenario:blockade scenario:location="8680" cost="10" />
+  <scenario:blockade scenario:location="35108" cost="10" />
+  <scenario:blockade scenario:location="4573" cost="10" />
+  <scenario:blockade scenario:location="28483" cost="10" />
+  <scenario:blockade scenario:location="17536" cost="10" />
+  <scenario:blockade scenario:location="1412" cost="10" />
+  <scenario:blockade scenario:location="9436" cost="10" />
+  <scenario:blockade scenario:location="5759" cost="10" />
+  <scenario:blockade scenario:location="7076" cost="10" />
+  <scenario:blockade scenario:location="8752" cost="10" />
+  <scenario:blockade scenario:location="37162" cost="10" />
+  <scenario:blockade scenario:location="12712" cost="10" />
+  <scenario:blockade scenario:location="38683" cost="10" />
+  <scenario:blockade scenario:location="18493" cost="10" />
+  <scenario:blockade scenario:location="13639" cost="10" />
+  <scenario:blockade scenario:location="15169" cost="10" />
+  <scenario:blockade scenario:location="200" cost="10" />
+  <scenario:blockade scenario:location="4123" cost="10" />
+  <scenario:blockade scenario:location="58395" cost="10" />
+  <scenario:blockade scenario:location="4986" cost="10" />
+  <scenario:blockade scenario:location="48305" cost="10" />
+  <scenario:blockade scenario:location="10651" cost="10" />
+  <scenario:blockade scenario:location="10093" cost="10" />
+  <scenario:blockade scenario:location="36457" cost="10" />
+  <scenario:blockade scenario:location="3561" cost="10" />
+  <scenario:blockade scenario:location="5614" cost="10" />
+  <scenario:blockade scenario:location="8536" cost="10" />
+  <scenario:blockade scenario:location="14764" cost="10" />
+  <scenario:blockade scenario:location="3296" cost="10" />
+  <scenario:blockade scenario:location="2576" cost="10" />
+  <scenario:blockade scenario:location="21302" cost="10" />
+  <scenario:blockade scenario:location="4910" cost="10" />
+  <scenario:blockade scenario:location="6269" cost="10" />
+  <scenario:blockade scenario:location="62871" cost="10" />
+  <scenario:blockade scenario:location="79" cost="10" />
+  <scenario:blockade scenario:location="63443" cost="10" />
+  <scenario:blockade scenario:location="6051" cost="10" />
+  <scenario:blockade scenario:location="17833" cost="10" />
+  <scenario:blockade scenario:location="1161" cost="10" />
+  <scenario:blockade scenario:location="17806" cost="10" />
+  <scenario:blockade scenario:location="12694" cost="10" />
+  <scenario:blockade scenario:location="38" cost="10" />
+  <scenario:blockade scenario:location="3066" cost="10" />
+  <scenario:blockade scenario:location="4801" cost="10" />
+  <scenario:blockade scenario:location="61482" cost="10" />
+  <scenario:blockade scenario:location="12037" cost="10" />
+  <scenario:blockade scenario:location="4240" cost="10" />
+  <scenario:blockade scenario:location="10183" cost="10" />
+  <scenario:blockade scenario:location="38147" cost="10" />
+  <scenario:blockade scenario:location="17950" cost="10" />
+  <scenario:blockade scenario:location="10732" cost="10" />
+  <scenario:blockade scenario:location="45658" cost="10" />
+  <scenario:blockade scenario:location="55287" cost="10" />
+  <scenario:blockade scenario:location="20256" cost="10" />
+  <scenario:blockade scenario:location="13234" cost="10" />
+  <scenario:blockade scenario:location="35517" cost="10" />
+  <scenario:blockade scenario:location="62657" cost="10" />
+  <scenario:blockade scenario:location="14728" cost="10" />
+  <scenario:blockade scenario:location="57717" cost="10" />
+  <scenario:blockade scenario:location="1615" cost="10" />
+  <scenario:blockade scenario:location="24672" cost="10" />
+  <scenario:blockade scenario:location="11992" cost="10" />
+  <scenario:blockade scenario:location="10246" cost="10" />
+  <scenario:blockade scenario:location="12136" cost="10" />
+  <scenario:blockade scenario:location="1902" cost="10" />
+  <scenario:blockade scenario:location="57263" cost="10" />
+  <scenario:blockade scenario:location="8266" cost="10" />
+  <scenario:blockade scenario:location="14620" cost="10" />
+  <scenario:blockade scenario:location="44436" cost="10" />
+  <scenario:blockade scenario:location="2906" cost="10" />
+  <scenario:blockade scenario:location="4958" cost="10" />
+  <scenario:blockade scenario:location="16402" cost="10" />
+  <scenario:blockade scenario:location="7384" cost="10" />
+  <scenario:blockade scenario:location="400" cost="10" />
+  <scenario:blockade scenario:location="62656" cost="10" />
+
+</scenario:scenario>
