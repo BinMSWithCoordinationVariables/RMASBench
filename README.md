@@ -15,7 +15,7 @@ Installation
 
 Check out this repository and all its submodules to your computer:
 
-    git clone --recursive https://github.com/RMASBench/RMASBench.git
+    git clone --recursive https://github.com/BinMSWithCoordinationVariables/RMASBench.git
 
 You will get an RMASBench folder containing 4 sub-folders (projects):
 
